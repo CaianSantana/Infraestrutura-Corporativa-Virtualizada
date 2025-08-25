@@ -25,6 +25,22 @@ Vagrant.configure("2") do |config|
       SHELL
     end
   end
+  config.vm.define "loadbalancer" do |node|
+      node.vm.hostname = "loadbalancer"
+      node.vm.box = "ubuntu/jammy64"
+      
+      node.vm.network "private_network", ip: "192.168.56.14"
+      
+      node.vm.provider "virtualbox" do |vb|
+        vb.memory = "1024"
+        vb.cpus = 1
+      end
+      
+      node.vm.provision "shell", inline: <<-SHELL
+          chmod +x /vagrant/scripts/setup-nginx.sh
+          /vagrant/scripts/setup-nginx.sh
+      SHELL
+    end
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
