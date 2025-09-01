@@ -1,0 +1,14 @@
+$TTL 3600
+minhaempresa.inet. IN SOA ns1.minhaempresa.inet. hostmaster.minhaempresa.inet. (
+        2025090101 ;sn
+        1200       ;ref
+        3600       ;ret
+        1814400    ;ex
+        604800     ;nx      
+        )
+@       IN      NS              ns1.minhaempresa.inet.
+ns1     IN      A               192.168.56.3
+www     IN      A               192.168.56.14
+web1    IN      A               192.168.56.11
+web2    IN      A               192.168.56.12
+web3    IN      A               192.168.56.13

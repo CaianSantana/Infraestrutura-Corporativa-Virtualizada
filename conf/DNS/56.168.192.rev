@@ -1,0 +1,10 @@
+$TTL 3600
+@       IN       SOA     ns1.minhaempresa.inet. root.minhaempresa.inet. (
+        2025090101 ;sn
+        1200       ;ref
+        3600       ;ret
+        1814400    ;ex
+        604800     ;nx
+        )
+@       IN      NS              ns1.minhaempresa.inet.
+14                             IN      PTR             www.minhaempresa.inet.
