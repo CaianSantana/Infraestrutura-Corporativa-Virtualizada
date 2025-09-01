@@ -1,10 +1,19 @@
-options {
-        directory "/var/cache/bind";
-        forwarders {
-                1.1.1.1;
-                8.8.8.8;
-        };
-        dnssec-validation auto;
+acl clients {
+    localhost;
+    192.168.56.0/24;
+};
 
-        listen-on-v6 { any; };
+options {
+    allow-recursion { clients; };
+    allow-query { clients; };
+    allow-transfer { none; };
+    version "Nao disponivel";
+
+    forwarders {
+        1.1.1.1;
+        8.8.8.8;
+    };
+    
+    dnssec-validation auto;
+    listen-on-v6 { any; };
 };
