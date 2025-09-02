@@ -4,9 +4,9 @@ Este projeto recria uma arquitetura de rede corporativa segura, conforme apresen
 ## Diagrama da Infraestrutura
 
 
- ![Diagrama da Arquitetura de Rede](https://www.plantuml.com/plantuml/svg/RPBFRjD048VlVeh1lPH3sZi7L3jEXQNYhfAKX0Yf6jkJPDNrRjXTfwaG3uCuSE85kER56FyXIf5pMkzyyzkPJxbn7gslAnMyyLkg22hqP2K6Ndf5aEgrHNBUrhws26DZTyQYbtk4-V7tJXO8XQaW-RY2ak1MscTK2f9wfqnGA5EN42wY32vJpQcQ_DiGq05V1S4EYoVS48JS7CB5dTniFUUZWcy1y4-RaeipidjP6WiBoh_eouYxjdITRQG-z5cJU0Z_93B6xtUa-NIT2aT5n_Fd6I-iERp0bFPadO7h_fNPrrgMvu-8wVtoyrbRair07F_aIXQc1VZYKJoSJy8kg9NHhTvXjul7D9l3nTIye8fLJKCDayEhXicI6vfYRcNn57m_CtSNPV_CDM6ln4sSn-Eluqy3_3MtcAFQTfbYF2Hi6YNfmwm1-kCGjC8ybuSMMaLnd2x_SzBloYAZvEI5DnxAIZwCHSVmeGLAz3ocOoX6NRI39rWQrr5nithG6nmfMliHi01u1-7S7d-iQMDEheFUswWqpte4YmuR6qq7DjB-PR67oOSSAyPmTVM-7QKX1MsuBiBJVRT6KvgICsfFl4r5BWnkI9TrfVu2)
+ ![Diagrama da Arquitetura de Rede](https://www.plantuml.com/plantuml/svg/TPFTRjis5CVl-HHdxiKI876JA1Y6NWIrf0GrqBg2xI1PCA0ubauSefJeyYDpD-nXYbuCkzZbdi0lDXvH_fZh1W5CYh_pSVxyyxLrQ9olbVZ1FL5DKACZ8r7y23azoeO0ePA6Ld-jlcgeD2ZyhBs32e7i9qycB1PeiCEawxQbGaE_er3qwC1fC7B-v5gaT58tGZZf5C70VFBIaVCX9DDceGqw-OmmeRddBBg6_Dq34Do4oDzGASZzGcaXIgLz1RsxmGYEXeqZqv0xxW5Q29z4wFxzDkHwoUSQLdz3wCx8cgH1cA4nl12DhWXw-_IlpT6mcE9CaOrvR-u-NDzFuGM3CoFBZq8iiFo8yn3CFHwDAUG9_mMPrJyrEQD3u8ktF7WO3HNy8I3ynN8fAcnAmaeRZidGp36K7CrbiuprYl7x-rzs8YPadYNZTpGxEm_i89H_ecxew_Ji_7lmnG7uudjmSW1ETk1yD861Tzf8nrV5EgN3KHxXSFYXk4t5dtit46z8WwNEAonOXV1sCDgJFwA7vH-EWlnZ_HbLgZpjo1_ITFB7QDm8p-3_TB-s3Zil4qmDpb0zwQXtTaYIyI0VtauOw9Q7e0USpUIoXHu6QJgyFmJbRxA2aNRH0XMwKD-sRcZAjgCSAsqZbUw9lXLcJ5QhPp8li-qr1OBrYSgVdfx6roitp_P6-MKty-hB8yqrGyoUzxTdr3Y35JBlhLzzCL8BVc6dLsltluBUcCAJjPpvNxBmPZejNav2KuKs3YtyV7O2bvV9SK_4Y10RdSorBlgmzdqTQkcDyw7Yqc7VEaEq0Q71g-ZhlVt5tZxXrCdE61MBsEM2pd2jHKhDLLGuXWKf_Oq_ZqEYMuiDpr_3tFY5Zl5MrWib7sM9XiMsvD2AexQvazXJ_4cEeT-_YbxT4-lhjhMrMgnpcfy0BLz1afpz54NZI4wIfppNPHyoNVicb8v9P7Ju-lKK6UiGhp-Mp7HZlNB8tzPqJqHVChlJtJlTIATDl8nDSMOEpXQpAtAuLRcpldXDJULhzHy0)
 
-[Código do Diagrama](https://www.plantuml.com/plantuml/uml/RPBFRjD048VlVeh1lPH3sZi7L3jEXQNYhfAKX0Yf6jkJPDNrRjXTfwaG3uCuSE85kER56FyXIf5pMkzyyzkPJxbn7gslAnMyyLkg22hqP2K6Ndf5aEgrHNBUrhws26DZTyQYbtk4-V7tJXO8XQaW-RY2ak1MscTK2f9wfqnGA5EN42wY32vJpQcQ_DiGq05V1S4EYoVS48JS7CB5dTniFUUZWcy1y4-RaeipidjP6WiBoh_eouYxjdITRQG-z5cJU0Z_93B6xtUa-NIT2aT5n_Fd6I-iERp0bFPadO7h_fNPrrgMvu-8wVtoyrbRair07F_aIXQc1VZYKJoSJy8kg9NHhTvXjul7D9l3nTIye8fLJKCDayEhXicI6vfYRcNn57m_CtSNPV_CDM6ln4sSn-Eluqy3_3MtcAFQTfbYF2Hi6YNfmwm1-kCGjC8ybuSMMaLnd2x_SzBloYAZvEI5DnxAIZwCHSVmeGLAz3ocOoX6NRI39rWQrr5nithG6nmfMliHi01u1-7S7d-iQMDEheFUswWqpte4YmuR6qq7DjB-PR67oOSSAyPmTVM-7QKX1MsuBiBJVRT6KvgICsfFl4r5BWnkI9TrfVu2)
+[Código do Diagrama](https://www.plantuml.com/plantuml/uml/TPFTRjis5CVl-HHdxiKI876JA1Y6NWIrf0GrqBg2xI1PCA0ubauSefJeyYDpD-nXYbuCkzZbdi0lDXvH_fZh1W5CYh_pSVxyyxLrQ9olbVZ1FL5DKACZ8r7y23azoeO0ePA6Ld-jlcgeD2ZyhBs32e7i9qycB1PeiCEawxQbGaE_er3qwC1fC7B-v5gaT58tGZZf5C70VFBIaVCX9DDceGqw-OmmeRddBBg6_Dq34Do4oDzGASZzGcaXIgLz1RsxmGYEXeqZqv0xxW5Q29z4wFxzDkHwoUSQLdz3wCx8cgH1cA4nl12DhWXw-_IlpT6mcE9CaOrvR-u-NDzFuGM3CoFBZq8iiFo8yn3CFHwDAUG9_mMPrJyrEQD3u8ktF7WO3HNy8I3ynN8fAcnAmaeRZidGp36K7CrbiuprYl7x-rzs8YPadYNZTpGxEm_i89H_ecxew_Ji_7lmnG7uudjmSW1ETk1yD861Tzf8nrV5EgN3KHxXSFYXk4t5dtit46z8WwNEAonOXV1sCDgNFw87vH-EWlnZ_HbLgZpjo1_ITFB7QDm8p-3_TB-s3Zil4qmDpb0zwQXtTaYIyI0VtauOw9Q7e0USpUIoXHu6QJgyFmJbRxA2aNRH0XMwKD-sRcZAjgCSAsqZbUw9lXLcJ5QhPp8li-qr1OBrYSgVdfx6roitp_P6-MKty-hB8yqrGyoUzxTdr3Y35JBlhLzzCL8BVc6dLsltluBUcCAJjPpvNxBmPZejNav2KuKs3YtyV7O2bvV9SK_428wDJWwrBlgmzdqTQkcDyw7Yqc7VEaEq0Q71g-ZhlVt5tZxXrCdE61MBsEM2pd2jHKhDLLGuXWKf_Oq_ZqEYMuiDpr_3tFY5Zl5MrWib7sM9XiMsvD2AexQvazXJ_4cEeT-_YbxT4-lhjhMrMgnpcfy0BLz1afpz54NZI4wIfppNPHyoNVicb8v9P7Ju-lKK6UiGhp-Mp7HZlNB8tzPqJqHVChlJtJlTIATDl8nDSMOEpXQpAtAuLRcplX2lgQbyhVu3)
  
 ## Arquitetura da Rede
 A infraestrutura é dividida em três zonas de segurança distintas, com os firewalls atuando como pontos de controle de fronteira entre elas.
@@ -29,11 +29,9 @@ A LAN é a rede interna e confiável, onde residem os dados críticos e os siste
 ### DMZ (Zona Desmilitarizada)
 A DMZ é uma zona de perímetro, isolada entre o Firewall Externo e o Interno. Ela hospeda os serviços que precisam ser expostos à internet, agindo como uma camada de sacrifício para proteger a LAN.
 
-- Servidor Web (Apache/Nginx): Hospeda os sites e aplicações acessíveis publicamente.
+- Servidores Web (Apache): Hospeda os sites e aplicações acessíveis publicamente.
 
-- Servidor VPN (OpenVPN/IPsec): Ponto de entrada seguro para funcionários remotos se conectarem à rede.
-
-- Proxy Reverso / Web: Intermedia o tráfego, oferecendo cache, balanceamento de carga e uma camada extra de segurança para os servidores web.
+- Balanceador de Carga: Intermedia o tráfego, oferecendo cache, balanceamento de carga e uma camada extra de segurança para os servidores web.
 
 - DNS Público: Resolve nomes de domínio públicos (ex: www.suaempresa.com) para requisições vindas da internet.
 
@@ -59,11 +57,11 @@ Pré-requisitos: Certifique-se de ter VirtualBox e Vagrant instalados.
 
 Clone o repositório:
 
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/CaianSantana/Infraestrutura-Corporativa-Virtualizada.git
 
 Acesse o diretório do projeto:
 
-    cd seu-repositorio
+    cd Infraestrutura-Corporativa-Virtualizada
 
 Inicie o ambiente:
 
