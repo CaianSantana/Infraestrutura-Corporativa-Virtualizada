@@ -4,6 +4,7 @@ acl clients {
 };
 
 options {
+    directory "/var/cache/bind";
     allow-recursion { clients; };
     allow-query { clients; };
     allow-transfer { none; };

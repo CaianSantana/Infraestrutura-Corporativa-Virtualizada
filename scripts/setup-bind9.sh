@@ -18,6 +18,7 @@ function install_requirements() {
     sudo systemctl stop systemd-resolved
     sudo systemctl disable systemd-resolved
     
+    sudo unlink /etc/resolv.conf
     echo "nameserver 127.0.0.1" | sudo tee /etc/resolv.conf
 
     sudo chattr +i /etc/resolv.conf
@@ -29,8 +30,8 @@ function config_dns() {
     sudo cp "$conf_dir"/* "$dns_dir/"
 
     echo ">>> Verificando a sintaxe dos arquivos de configuração..."
-
-    if ! sudo named-checkconf; then
+    sudo named-checkconf
+    if [[ $? -ne 0 ]]; then
         echo "ERRO: Problema no arquivo de configuração principal do BIND (named.conf.local)."
         exit 1 
     fi
